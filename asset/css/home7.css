@@ -126,6 +126,7 @@
 
 /* header contact */
 .header__contact {
+    text-decoration: none;
     width: 158px;
     height: 52px;
     border-radius: 50px;

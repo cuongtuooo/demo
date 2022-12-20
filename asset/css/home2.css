@@ -108,7 +108,7 @@
 
 .header__menu {
     margin-top: 18px;
-    margin-left: 134px;
+    margin-left: 30px;
 }
 
 .header__menu__list {
@@ -157,6 +157,7 @@
 
 /* header contact */
 .header__contact {
+    text-decoration: none;
     width: 158px;
     height: 52px;
     border-radius: 50px;

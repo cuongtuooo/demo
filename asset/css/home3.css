@@ -141,6 +141,7 @@
     color: #FFFFFF;
     margin-left: 52px;
     margin-top: 4px;
+    text-decoration: none;
 }
 
 /* content */
@@ -483,6 +484,7 @@
     margin-right: auto;
     justify-content: space-between;
     margin-top: 94px;
+    list-style: none;
 }
 
 .content__logo-mentors {
