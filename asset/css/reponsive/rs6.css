@@ -1,0 +1,33 @@
+/* tablet */
+@media (min-width: 740px) and ( max-width: 1023px) {
+    /* content member */
+    .content__member-items-main {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content__member-items-main-text {
+        margin-left: 0;
+    }
+
+    .content__member-items-main-text {
+        margin-top: 40px;
+    }
+}
+
+/* mobile */
+@media (max-width: 740px) {
+    /* content member */
+    .content__member-items-main {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content__member-items-main-text {
+        margin-left: 0;
+    }
+
+    .content__member-items-main-text {
+        margin-top: 40px;
+    }
+}

@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./asset/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/home7.css">
+    <link rel="stylesheet" href="./asset/css/reponsive.css">
+    <link rel="stylesheet" href="./asset/css/reponsive/rs7.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,48 +21,51 @@
     <div class="main">
         <!-- header -->
         <div class="header">
+            <!-- header main -->
             <div class="header__main">
-                <div class="header__logo">
+                <a href="./index.html" class="header__logo">
                     <div class="header__logo-ball">
                         <div class="header__logo-ball-rectangle">
-    
+
                         </div>
                     </div>
-    
+
                     <div class="header__beautice">
                         Beautice
                     </div>
-                </div>
-    
-                <div class="header__menu">
-                    <ul class="header__menu__list">
-                        <li class="header__menu__list-item">
-                            <a href="./home2.html" class="header__menu__list-item-link header__menu__list-item-link--active">Home
-                            </a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home3.html" class="header__menu__list-item-link">About</a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home4.html" class="header__menu__list-item-link">Service</a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home5.html" class="header__menu__list-item-link">Gallery</a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home7.html" class="header__menu__list-item-link">Blog</a>
-                        </li>
-    
-                    </ul>
-                </div>
-    
+                </a>
+
+                <ul class="header__menu__list">
+                    <li class="header__menu__list-item">
+                        <a href="./home2.html" class="header__menu__list-item-link header__menu__list-item-link--active">Home
+                        </a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home3.html" class="header__menu__list-item-link">About</a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home4.html" class="header__menu__list-item-link">Service</a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home5.html" class="header__menu__list-item-link">Gallery</a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home7.html" class="header__menu__list-item-link">Blog</a>
+                    </li>
+
+                </ul>
+
                 <a href="./home8.html" class="header__contact">
                     Contact
                 </a>
+
+                <!-- header main mobile and tablet -->
+                <div class="header__mobile ti-view-list">
+                </div>
             </div>
         </div>
 
@@ -81,12 +88,12 @@
                         <img src="./asset/imgpdg/home7item1.png" alt="" class="content__main-introduce-item-img">
                         <div class="content__main-introduce-item-wrap">
                             <div class="content__main-introduce-item-title">
-                                <div class="content__main-introduce-item-title-icon">
+                                <a  href="#" class="content__main-introduce-item-title-icon">
                                     <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22.6562 3.25H13.2812L10.1562 0.125H2.34375C1.04932 0.125 0 1.17432 0 2.46875V16.5312C0 17.8257 1.04932 18.875 2.34375 18.875H22.6562C23.9507 18.875 25 17.8257 25 16.5312V5.59375C25 4.29932 23.9507 3.25 22.6562 3.25Z" fill="#FF64AE"/>
                                     </svg>    
-                                </div>
-                                <h2 class="content__main-introduce-item-title-text">Consultation</h2>
+                                </a>
+                                <a href="#" class="content__main-introduce-item-title-text">Consultation</a>
                             </div>
 
                             <h2 class="content__main-introduce-item-heading">
@@ -97,14 +104,14 @@
                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the…
                             </p>
 
-                            <button class="content__main-introduce-item-button">
+                            <a href="" class="content__main-introduce-item-button">
                                 <p class="content__main-introduce-item-button-text">Read More</p>
                                 <div class="content__main-introduce-item-button-icon">
                                     <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.8125 13.7823V1.21764C0.8125 0.347624 1.8644 -0.0880693 2.47959 0.527116L8.76191 6.80944C9.14326 7.19079 9.14326 7.80915 8.76191 8.1905L2.47959 14.4728C1.8644 15.0881 0.8125 14.6523 0.8125 13.7823Z" fill="white"/>
                                     </svg>    
                                 </div>
-                            </button>
+                            </a>
                         </div>
 
                     </li>
@@ -113,11 +120,11 @@
                         <img src="./asset/imgpdg/home7item2.png" alt="" class="content__main-introduce-item-img">
                         <div class="content__main-introduce-item-wrap">
                             <div class="content__main-introduce-item-title">
-                                <div class="content__main-introduce-item-title-icon">
+                                <a  href="#" class="content__main-introduce-item-title-icon">
                                     <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22.6562 3.25H13.2812L10.1562 0.125H2.34375C1.04932 0.125 0 1.17432 0 2.46875V16.5312C0 17.8257 1.04932 18.875 2.34375 18.875H22.6562C23.9507 18.875 25 17.8257 25 16.5312V5.59375C25 4.29932 23.9507 3.25 22.6562 3.25Z" fill="#FF64AE"/>
                                     </svg>    
-                                </div>
+                                </a>
                                 <h2 class="content__main-introduce-item-title-text">Consultation</h2>
                             </div>
 
@@ -129,14 +136,14 @@
                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the…
                             </p>
 
-                            <button class="content__main-introduce-item-button">
+                            <a href="" class="content__main-introduce-item-button">
                                 <p class="content__main-introduce-item-button-text">Read More</p>
                                 <div class="content__main-introduce-item-button-icon">
                                     <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.8125 13.7823V1.21764C0.8125 0.347624 1.8644 -0.0880693 2.47959 0.527116L8.76191 6.80944C9.14326 7.19079 9.14326 7.80915 8.76191 8.1905L2.47959 14.4728C1.8644 15.0881 0.8125 14.6523 0.8125 13.7823Z" fill="white"/>
                                     </svg>    
                                 </div>
-                            </button>
+                            </a>
                         </div>
 
                     </li>
@@ -145,11 +152,11 @@
                         <img src="./asset/imgpdg/home7item3.png" alt="" class="content__main-introduce-item-img">
                         <div class="content__main-introduce-item-wrap">
                             <div class="content__main-introduce-item-title">
-                                <div class="content__main-introduce-item-title-icon">
+                                <a  href="#" class="content__main-introduce-item-title-icon">
                                     <svg width="25" height="19" viewBox="0 0 25 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22.6562 3.25H13.2812L10.1562 0.125H2.34375C1.04932 0.125 0 1.17432 0 2.46875V16.5312C0 17.8257 1.04932 18.875 2.34375 18.875H22.6562C23.9507 18.875 25 17.8257 25 16.5312V5.59375C25 4.29932 23.9507 3.25 22.6562 3.25Z" fill="#FF64AE"/>
                                     </svg>    
-                                </div>
+                                </a>
                                 <h2 class="content__main-introduce-item-title-text">Consultation</h2>
                             </div>
 
@@ -161,14 +168,14 @@
                                 A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the…
                             </p>
 
-                            <button class="content__main-introduce-item-button">
+                            <a href="" class="content__main-introduce-item-button">
                                 <p class="content__main-introduce-item-button-text">Read More</p>
                                 <div class="content__main-introduce-item-button-icon">
                                     <svg width="10" height="15" viewBox="0 0 10 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M0.8125 13.7823V1.21764C0.8125 0.347624 1.8644 -0.0880693 2.47959 0.527116L8.76191 6.80944C9.14326 7.19079 9.14326 7.80915 8.76191 8.1905L2.47959 14.4728C1.8644 15.0881 0.8125 14.6523 0.8125 13.7823Z" fill="white"/>
                                     </svg>    
                                 </div>
-                            </button>
+                            </a>
                         </div>
 
                     </li>
@@ -177,62 +184,62 @@
                 <div class="content__main-nav">
                     <div class="content__main-nav-search">
                         <input type="text" placeholder="Search here ..." class="content__main-nav-search-input">
-                        <button class="content__main-nav-search-button">
+                        <a href="#" class="content__main-nav-search-button">
                             <div class="content__main-nav-search-button-icon">
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M24.6582 21.6162L19.79 16.748C19.5703 16.5283 19.2725 16.4062 18.96 16.4062H18.1641C19.5117 14.6826 20.3125 12.5146 20.3125 10.1562C20.3125 4.5459 15.7666 0 10.1562 0C4.5459 0 0 4.5459 0 10.1562C0 15.7666 4.5459 20.3125 10.1562 20.3125C12.5146 20.3125 14.6826 19.5117 16.4062 18.1641V18.96C16.4062 19.2725 16.5283 19.5703 16.748 19.79L21.6162 24.6582C22.0752 25.1172 22.8174 25.1172 23.2715 24.6582L24.6533 23.2764C25.1123 22.8174 25.1123 22.0752 24.6582 21.6162ZM10.1562 16.4062C6.7041 16.4062 3.90625 13.6133 3.90625 10.1562C3.90625 6.7041 6.69922 3.90625 10.1562 3.90625C13.6084 3.90625 16.4062 6.69922 16.4062 10.1562C16.4062 13.6084 13.6133 16.4062 10.1562 16.4062Z" fill="white"/>
                                 </svg>    
                             </div>
-                        </button>
+                        </a>
                     </div>
 
                     <div class="content__main-nav-post">
                         <h2 class="content__main-nav-post-heading">Recent Posts</h2>
                         <ul class="content__main-nav-post-list">
-                            <li class="content__main-nav-post-items">
+                            <a href="#" class="content__main-nav-post-items">
                                 <img src="./asset/imgpdg/ders1.png" alt="" class="content__main-nav-post-items-img">
                                 <div class="content__main-nav-post-items-main">
                                     <h2 class="content__main-nav-post-items-main-heading">01 jan 2021</h2>
                                     <p class="content__main-nav-post-items-main-ders">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                                 </div>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-post-items">
+                            <a href="#" class="content__main-nav-post-items">
                                 <img src="./asset/imgpdg/ders2.png" alt="" class="content__main-nav-post-items-img">
                                 <div class="content__main-nav-post-items-main">
                                     <h2 class="content__main-nav-post-items-main-heading">01 jan 2021</h2>
                                     <p class="content__main-nav-post-items-main-ders">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                                 </div>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-post-items">
+                            <a href="#" class="content__main-nav-post-items">
                                 <img src="./asset/imgpdg/ders3.png" alt="" class="content__main-nav-post-items-img">
                                 <div class="content__main-nav-post-items-main">
                                     <h2 class="content__main-nav-post-items-main-heading">01 jan 2021</h2>
                                     <p class="content__main-nav-post-items-main-ders">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
                                 </div>
-                            </li>
+                            </a>
                         </ul>
                     </div>
 
                     <div class="content__main-nav-categories">
                         <h2 class="content__main-nav-categories-heading">Categories</h2>
                         <ul class="content__main-nav-categories-list">
-                            <li class="content__main-nav-categories-items">
+                            <a href="#" class="content__main-nav-categories-items">
                                 <p class="content__main-nav-categories-items-text">Consultation</p>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-categories-items">
+                            <a href="#" class="content__main-nav-categories-items">
                                 <p class="content__main-nav-categories-items-text">Beauty</p>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-categories-items">
+                            <a href="#" class="content__main-nav-categories-items">
                                 <p class="content__main-nav-categories-items-text">Treatments</p>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-categories-items">
+                            <a href="#" class="content__main-nav-categories-items">
                                 <p class="content__main-nav-categories-items-text">News</p>
-                            </li>
+                            </a>
 
                         </ul>
                     </div>
@@ -240,78 +247,78 @@
                     <div class="content__main-nav-cloud">
                         <h2 class="content__main-nav-cloud-heading">Cloud Tags</h2>
                         <ul class="content__main-nav-cloud-list">
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 beauty
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 cute
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 skin    
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 glow
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 style
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 clinic
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 style
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 great
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-cloud-items">
+                            <a href="#" class="content__main-nav-cloud-items">
                                 cute
-                            </li>
+                            </a>
                         </ul>
                     </div>
 
                     <div class="content__main-nav-connect">
                         <h2 class="content__main-nav-connect-heading">Social Connect</h2>
                         <ul class="content__main-nav-connect-list">
-                            <li class="content__main-nav-connect-items">
+                            <a href="#" class="content__main-nav-connect-items">
                                 <div class="content__main-nav-connect-items-icons">
                                     <svg width="15" height="25" viewBox="0 0 15 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M13.3169 14.0625L14.0112 9.53809H9.66992V6.60205C9.66992 5.36426 10.2764 4.15771 12.2207 4.15771H14.1943V0.305664C14.1943 0.305664 12.4033 0 10.6909 0C7.11572 0 4.77881 2.16699 4.77881 6.08984V9.53809H0.804688V14.0625H4.77881V25H9.66992V14.0625H13.3169Z" fill="#091156"/>
                                     </svg>
                                 </div>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-connect-items">
+                            <a href="#" class="content__main-nav-connect-items">
                                 <div class="content__main-nav-connect-items-icons">
                                     <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M22.4302 5.40803C22.446 5.6301 22.446 5.85222 22.446 6.07429C22.446 12.8477 17.2906 20.6523 7.86802 20.6523C4.96509 20.6523 2.26841 19.8115 0 18.3522C0.412451 18.3998 0.808984 18.4156 1.2373 18.4156C3.63257 18.4156 5.83755 17.6067 7.59834 16.2266C5.3458 16.179 3.45811 14.7037 2.80771 12.6733C3.125 12.7208 3.44224 12.7526 3.77539 12.7526C4.2354 12.7526 4.69546 12.6891 5.12373 12.5781C2.77603 12.1022 1.01519 10.04 1.01519 7.54954V7.48611C1.69727 7.86682 2.49048 8.10476 3.33115 8.13645C1.95107 7.21638 1.04692 5.64597 1.04692 3.86931C1.04692 2.91755 1.30068 2.04509 1.74487 1.28367C4.26709 4.3928 8.05835 6.42322 12.3096 6.64534C12.2303 6.26462 12.1827 5.86809 12.1827 5.47151C12.1827 2.64788 14.4669 0.347778 17.3064 0.347778C18.7816 0.347778 20.1141 0.966431 21.05 1.9658C22.208 1.74373 23.3184 1.31541 24.302 0.728491C23.9212 1.91824 23.1122 2.9176 22.0494 3.55208C23.0805 3.44109 24.0799 3.15549 24.9999 2.75896C24.302 3.77415 23.4295 4.6783 22.4302 5.40803Z" fill="#091156"/>
                                     </svg>                         
                                 </div>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-connect-items">
+                            <a href="#" class="content__main-nav-connect-items">
                                 <div class="content__main-nav-connect-items-icons">
                                     <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M11.5046 5.88477C8.39917 5.88477 5.89429 8.38965 5.89429 11.4951C5.89429 14.6006 8.39917 17.1055 11.5046 17.1055C14.6101 17.1055 17.115 14.6006 17.115 11.4951C17.115 8.38965 14.6101 5.88477 11.5046 5.88477ZM11.5046 15.1426C9.4978 15.1426 7.85718 13.5068 7.85718 11.4951C7.85718 9.4834 9.49292 7.84766 11.5046 7.84766C13.5164 7.84766 15.1521 9.4834 15.1521 11.4951C15.1521 13.5068 13.5115 15.1426 11.5046 15.1426ZM18.6531 5.65527C18.6531 6.38281 18.0671 6.96387 17.3445 6.96387C16.6169 6.96387 16.0359 6.37793 16.0359 5.65527C16.0359 4.93262 16.6218 4.34668 17.3445 4.34668C18.0671 4.34668 18.6531 4.93262 18.6531 5.65527ZM22.3689 6.9834C22.2859 5.23047 21.8855 3.67773 20.6013 2.39844C19.322 1.11914 17.7693 0.71875 16.0164 0.630859C14.2097 0.52832 8.79468 0.52832 6.98804 0.630859C5.23999 0.713867 3.68726 1.11426 2.40308 2.39355C1.1189 3.67285 0.723389 5.22559 0.635498 6.97852C0.532959 8.78516 0.532959 14.2002 0.635498 16.0068C0.718506 17.7598 1.1189 19.3125 2.40308 20.5918C3.68726 21.8711 5.23511 22.2715 6.98804 22.3594C8.79468 22.4619 14.2097 22.4619 16.0164 22.3594C17.7693 22.2764 19.322 21.876 20.6013 20.5918C21.8806 19.3125 22.281 17.7598 22.3689 16.0068C22.4714 14.2002 22.4714 8.79004 22.3689 6.9834ZM20.0349 17.9453C19.6541 18.9023 18.9167 19.6396 17.9548 20.0254C16.5144 20.5967 13.0964 20.4648 11.5046 20.4648C9.91284 20.4648 6.48999 20.5918 5.05444 20.0254C4.09741 19.6445 3.36011 18.9072 2.97437 17.9453C2.40308 16.5049 2.53491 13.0869 2.53491 11.4951C2.53491 9.90332 2.40796 6.48047 2.97437 5.04492C3.35522 4.08789 4.09253 3.35059 5.05444 2.96484C6.49487 2.39355 9.91284 2.52539 11.5046 2.52539C13.0964 2.52539 16.5193 2.39844 17.9548 2.96484C18.9119 3.3457 19.6492 4.08301 20.0349 5.04492C20.6062 6.48535 20.4744 9.90332 20.4744 11.4951C20.4744 13.0869 20.6062 16.5098 20.0349 17.9453Z" fill="#091156"/>
                                     </svg>
                                 </div>
-                            </li>
+                            </a>
 
-                            <li class="content__main-nav-connect-items">
+                            <a href="#" class="content__main-nav-connect-items">
                                 <div class="content__main-nav-connect-items-icons">
                                     <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M5.45898 21.875H0.923828V7.27051H5.45898V21.875ZM3.18896 5.27832C1.73877 5.27832 0.5625 4.07715 0.5625 2.62695C0.5625 1.93037 0.839216 1.26232 1.33177 0.769762C1.82433 0.277204 2.49238 0.000488281 3.18896 0.000488281C3.88555 0.000488281 4.5536 0.277204 5.04616 0.769762C5.53871 1.26232 5.81543 1.93037 5.81543 2.62695C5.81543 4.07715 4.63867 5.27832 3.18896 5.27832ZM22.4326 21.875H17.9072V14.7656C17.9072 13.0713 17.873 10.8984 15.5493 10.8984C13.1914 10.8984 12.8301 12.7393 12.8301 14.6436V21.875H8.29981V7.27051H12.6494V9.2627H12.7129C13.3184 8.11523 14.7974 6.9043 17.0039 6.9043C21.5938 6.9043 22.4375 9.92676 22.4375 13.8525V21.875H22.4326Z" fill="#091156"/>
                                     </svg>
                                 </div>
-                            </li>
+                            </a>
                         </ul>
                     </div>
                 </div>
@@ -319,175 +326,208 @@
             </div>
 
             <ul class="content__page">
-                <li class="content__page-items content__page-items-active">1</li>
-                <li class="content__page-items">2</li>
-                <li class="content__page-items">3</li>
+                <li class="content__page-items content__page-items-1 content__page-items-active">1</li>
+                <li class="content__page-items content__page-items-2">2</li>
+                <li class="content__page-items content__page-items-3">3</li>
             </ul>
         </div>
 
         <!-- footer -->
         <div class="footer">
-            <img src="./asset/img/Footer BG.png" alt="" class="footer__background">
-            <div class="footer__contact">
-                <div class="footer__contact-beautice">
-                    <div class="footer__contact-logo">
-                        <div class="footer__contact-logo-icon">
-                            <div class="footer__contact-logo-iconRules"></div>
+            <img src="./asset/imgpdg/Footer BG.png" class="footer__background1">
+            
+            <img src="./asset/imgpdg/Bottom BG.png" class="footer__background2">
+
+            <a href="#" class="footer__around">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.35193 9.17754L0.57146 8.39707C0.240991 8.0666 0.240991 7.53223 0.57146 7.20527L7.40232 0.370898C7.73279 0.0404297 8.26716 0.0404297 8.59412 0.370898L15.425 7.20176C15.7554 7.53223 15.7554 8.0666 15.425 8.39356L14.6445 9.17402C14.3105 9.50801 13.7656 9.50098 13.4386 9.15996L9.40623 4.92715V15.0311C9.40623 15.4986 9.03005 15.8748 8.56248 15.8748H7.43748C6.9699 15.8748 6.59373 15.4986 6.59373 15.0311V4.92715L2.55779 9.16348C2.23083 9.50801 1.68591 9.51504 1.35193 9.17754Z" fill="white"/>
+                </svg>    
+            </a>
+
+            <div class="gird">
+                <div class="row footer__contact">
+                    <div class="col l-6 m-12 footer__contact-beautice">
+                        <div class="footer__contact-logo c-12">
+                            <div class="footer__contact-logo-icon">
+                                <div class="footer__contact-logo-iconRules"></div>
+                            </div>
+                            <p class="footer__contact-logo-text">Beautice</p>
                         </div>
-                        <p class="footer__contact-logo-text">Beautice</p>
+
+                        <p class="footer__contact-ders"><span>Beautice</span> is a Beauty Clinic WordPress Theme.</p>
+                        <p class="footer__contact-adress">Baker Steet 101, NY, United States.</p>
+                        <div class="footer__contact-phone">
+                            <a href="" class="footer__contact-phone-number">+521 569 8966.</a>
+                            <a href="#" class="footer__contact-phone-emai">mail@company.com.</a>
+                        </div>
                     </div>
+
+                    <div class="col l-3 m-6 footer__contact-page c-12">
+                        <p class="footer__contact-page-heading">Pages</p>
+                        <ul class="footer__contact-page-list">
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./index.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                    <p class="footer__contact-ders"><span>Beautice</span> is a Beauty Clinic WordPress Theme.</p>
-                    <p class="footer__contact-adress">Baker Steet 101, NY, United States.</p>
-                    <div class="footer__contact-phone">
-                        <p class="footer__contact-phone-number">+521 569 8966.</p>
-                        <p class="footer__contact-phone-emai">mail@company.com.</p>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Home
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home3.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        About
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home4.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Services
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home5.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Gallery
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home6.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Team
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
                     </div>
-                </div>
+
+                    <div class="col l-3 m-6 footer__contact-page c-12">
+                        <p class="footer__contact-page-heading">Infomations</p>
+                        <ul class="footer__contact-page-list">
+                            <li class="footer__contact-page-list-link">
+                                <a href= "" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                <div class="footer__contact-page">
-                    <p class="footer__contact-page-heading">Pages</p>
-                    <ul class="footer__contact-page-list">
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Terms & conditions
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                            </div>
-                            Home
-                        </li>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Privacy policy
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home7.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Blog
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home8.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                            </div>
-                            About
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Services
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Gallery
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Team
-                        </li>
-    
-                    </ul>
-                </div>
-    
-                <div class="footer__contact-page">
-                    <p class="footer__contact-page-heading">Infomations</p>
-                    <ul class="footer__contact-page-list">
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Terms & conditions
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Privacy policy
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Blog
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Contact
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Team
-                        </li>
-    
-                    </ul>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Contact
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-    
+
             <div class="footer__introduce">
                 <ul class="footer__introduce-list">
                     <li class="footer__introduce-list-item">
@@ -497,16 +537,16 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M22.4302 6.24912C22.446 6.49641 22.446 6.74375 22.446 6.99103C22.446 14.5336 17.2906 23.2244 7.86802 23.2244C4.96509 23.2244 2.26841 22.2882 0 20.6632C0.412451 20.7161 0.808984 20.7338 1.2373 20.7338C3.63257 20.7338 5.83755 19.8329 7.59834 18.2962C5.3458 18.2431 3.45811 16.6004 2.80771 14.3393C3.125 14.3923 3.44224 14.4276 3.77539 14.4276C4.2354 14.4276 4.69546 14.357 5.12373 14.2334C2.77603 13.7034 1.01519 11.4071 1.01519 8.6338V8.56317C1.69727 8.98711 2.49048 9.25207 3.33115 9.28736C1.95107 8.26281 1.04692 6.51408 1.04692 4.53567C1.04692 3.47584 1.30068 2.50431 1.74487 1.65642C4.26709 5.1186 8.05835 7.37958 12.3096 7.62692C12.2303 7.20298 12.1827 6.76142 12.1827 6.3198C12.1827 3.17554 14.4669 0.614258 17.3064 0.614258C18.7816 0.614258 20.1141 1.30316 21.05 2.41601C22.208 2.16872 23.3184 1.69176 24.302 1.0382C23.9212 2.36305 23.1122 3.47589 22.0494 4.18241C23.0805 4.05882 24.0799 3.7408 24.9999 3.29924C24.302 4.4297 23.4295 5.43652 22.4302 6.24912Z"
                                 fill="white" />
                         </svg>
-    
+
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -514,7 +554,7 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -522,7 +562,7 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -530,12 +570,84 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                 </ul>
-    
+
                 <p class="footer__introduce-version">© AltDesain Studio 2021 - All right reserved.</p>
             </div>
         </div>
     </div>
+
+    <div class="modal">
+        <ul class="modal__list">
+            <div class="modal__close ti-close"></div>
+
+            <li class="modal__list-items">
+                <a href="./home2.html" class="modal__list-items-link modal__list-items-link-active">
+                    Home + 
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home3.html" class="modal__list-items-link">
+                    About
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home4.html" class="modal__list-items-link">
+                    Service
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home5.html" class="modal__list-items-link">
+                    Gallery 
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home7.html" class="modal__list-items-link">
+                    Blog
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home8.html" class="modal__list-items-link">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <script src="./asset/js/index.js"></script>
+
+    <script>
+        var page1 = document.querySelector('.content__page-items-1')
+        var page2 = document.querySelector('.content__page-items-2')
+        var page3 = document.querySelector('.content__page-items-3')
+        var pageActive = document.querySelector('.content__page-items-active')
+
+        page1.onclick = function () {
+            page1.classList.add('content__page-items-active')
+            page2.classList.remove('content__page-items-active')
+            page3.classList.remove('content__page-items-active')
+
+        }
+
+        page2.onclick = function () {
+            page1.classList.remove('content__page-items-active')
+            page2.classList.add('content__page-items-active')
+            page3.classList.remove('content__page-items-active')
+
+        }
+
+        page3.onclick = function () {
+            page1.classList.remove('content__page-items-active')
+            page2.classList.remove('content__page-items-active')
+            page3.classList.add('content__page-items-active')
+        }
+    </script>
 </body>
 </html>

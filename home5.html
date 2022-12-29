@@ -5,8 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./asset/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="./asset/css/base.css">
     <link rel="stylesheet" href="./asset/css/home5.css">
+    <link rel="stylesheet" href="./asset/css/reponsive.css">
+    <link rel="stylesheet" href="./asset/css/reponsive/rs5.css">
+    <link rel="stylesheet" href="./asset/css/grid.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -17,48 +21,51 @@
     <div class="main">
         <!-- header -->
         <div class="header">
+            <!-- header main -->
             <div class="header__main">
-                <div class="header__logo">
+                <a href="./index.html" class="header__logo">
                     <div class="header__logo-ball">
                         <div class="header__logo-ball-rectangle">
-    
+
                         </div>
                     </div>
-    
+
                     <div class="header__beautice">
                         Beautice
                     </div>
-                </div>
-    
-                <div class="header__menu">
-                    <ul class="header__menu__list">
-                        <li class="header__menu__list-item">
-                            <a href="./home2.html" class="header__menu__list-item-link header__menu__list-item-link--active">Home
-                            </a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home3.html" class="header__menu__list-item-link">About</a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home4.html" class="header__menu__list-item-link">Service</a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home5.html" class="header__menu__list-item-link">Gallery</a>
-                        </li>
-    
-                        <li class="header__menu__list-item">
-                            <a href="./home7.html" class="header__menu__list-item-link">Blog</a>
-                        </li>
-    
-                    </ul>
-                </div>
-    
+                </a>
+
+                <ul class="header__menu__list">
+                    <li class="header__menu__list-item">
+                        <a href="./home2.html" class="header__menu__list-item-link header__menu__list-item-link--active">Home
+                        </a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home3.html" class="header__menu__list-item-link">About</a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home4.html" class="header__menu__list-item-link">Service</a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home5.html" class="header__menu__list-item-link">Gallery</a>
+                    </li>
+
+                    <li class="header__menu__list-item">
+                        <a href="./home7.html" class="header__menu__list-item-link">Blog</a>
+                    </li>
+
+                </ul>
+
                 <a href="./home8.html" class="header__contact">
                     Contact
                 </a>
+
+                <!-- header main mobile and tablet -->
+                <div class="header__mobile ti-view-list">
+                </div>
             </div>
         </div>
 
@@ -162,167 +169,200 @@
 
         <!-- footer -->
         <div class="footer">
-            <img src="./asset/img/Footer BG.png" alt="" class="footer__background">
-            <div class="footer__contact">
-                <div class="footer__contact-beautice">
-                    <div class="footer__contact-logo">
-                        <div class="footer__contact-logo-icon">
-                            <div class="footer__contact-logo-iconRules"></div>
+            <img src="./asset/imgpdg/Footer BG.png" class="footer__background1">
+            
+            <img src="./asset/imgpdg/Bottom BG.png" class="footer__background2">
+
+            <a href="#" class="footer__around">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.35193 9.17754L0.57146 8.39707C0.240991 8.0666 0.240991 7.53223 0.57146 7.20527L7.40232 0.370898C7.73279 0.0404297 8.26716 0.0404297 8.59412 0.370898L15.425 7.20176C15.7554 7.53223 15.7554 8.0666 15.425 8.39356L14.6445 9.17402C14.3105 9.50801 13.7656 9.50098 13.4386 9.15996L9.40623 4.92715V15.0311C9.40623 15.4986 9.03005 15.8748 8.56248 15.8748H7.43748C6.9699 15.8748 6.59373 15.4986 6.59373 15.0311V4.92715L2.55779 9.16348C2.23083 9.50801 1.68591 9.51504 1.35193 9.17754Z" fill="white"/>
+                </svg>    
+            </a>
+
+            <div class="gird">
+                <div class="row footer__contact">
+                    <div class="col l-6 m-12 footer__contact-beautice">
+                        <div class="footer__contact-logo c-12">
+                            <div class="footer__contact-logo-icon">
+                                <div class="footer__contact-logo-iconRules"></div>
+                            </div>
+                            <p class="footer__contact-logo-text">Beautice</p>
                         </div>
-                        <p class="footer__contact-logo-text">Beautice</p>
+
+                        <p class="footer__contact-ders"><span>Beautice</span> is a Beauty Clinic WordPress Theme.</p>
+                        <p class="footer__contact-adress">Baker Steet 101, NY, United States.</p>
+                        <div class="footer__contact-phone">
+                            <a href="" class="footer__contact-phone-number">+521 569 8966.</a>
+                            <a href="#" class="footer__contact-phone-emai">mail@company.com.</a>
+                        </div>
                     </div>
+
+                    <div class="col l-3 m-6 footer__contact-page c-12">
+                        <p class="footer__contact-page-heading">Pages</p>
+                        <ul class="footer__contact-page-list">
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./index.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                    <p class="footer__contact-ders"><span>Beautice</span> is a Beauty Clinic WordPress Theme.</p>
-                    <p class="footer__contact-adress">Baker Steet 101, NY, United States.</p>
-                    <div class="footer__contact-phone">
-                        <p class="footer__contact-phone-number">+521 569 8966.</p>
-                        <p class="footer__contact-phone-emai">mail@company.com.</p>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Home
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home3.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        About
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home4.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Services
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home5.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Gallery
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home6.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
+    
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Team
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
                     </div>
-                </div>
+
+                    <div class="col l-3 m-6 footer__contact-page c-12">
+                        <p class="footer__contact-page-heading">Infomations</p>
+                        <ul class="footer__contact-page-list">
+                            <li class="footer__contact-page-list-link">
+                                <a href= "" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                <div class="footer__contact-page">
-                    <p class="footer__contact-page-heading">Pages</p>
-                    <ul class="footer__contact-page-list">
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Terms & conditions
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                            </div>
-                            Home
-                        </li>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Privacy policy
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home7.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Blog
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="footer__contact-page-list-link">
+                                <a href= "./home8.html" class="footer__contact-page-list-item">
+                                    <div class="footer__contact-page-list-item-icon">
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
+                                                fill="#D7DBFF" />
+                                        </svg>
     
-                            </div>
-                            About
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Services
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Gallery
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Team
-                        </li>
-    
-                    </ul>
-                </div>
-    
-                <div class="footer__contact-page">
-                    <p class="footer__contact-page-heading">Infomations</p>
-                    <ul class="footer__contact-page-list">
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Terms & conditions
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Privacy policy
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Blog
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Contact
-                        </li>
-    
-                        <li class="footer__contact-page-list-item">
-                            <div class="footer__contact-page-list-item-icon">
-                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M0.0625 7.76705V1.23343C0.0625 0.781023 0.60949 0.554463 0.929387 0.874359L4.1962 4.14117C4.3945 4.33947 4.3945 4.66102 4.1962 4.85932L0.929387 8.12612C0.60949 8.44605 0.0625 8.21946 0.0625 7.76705Z"
-                                        fill="#D7DBFF" />
-                                </svg>
-    
-                            </div>
-                            Team
-                        </li>
-    
-                    </ul>
+                                    </div>
+                                    <span class="footer__contact-page-list-item-text">
+                                        Contact
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-    
+
             <div class="footer__introduce">
                 <ul class="footer__introduce-list">
                     <li class="footer__introduce-list-item">
@@ -332,16 +372,16 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M22.4302 6.24912C22.446 6.49641 22.446 6.74375 22.446 6.99103C22.446 14.5336 17.2906 23.2244 7.86802 23.2244C4.96509 23.2244 2.26841 22.2882 0 20.6632C0.412451 20.7161 0.808984 20.7338 1.2373 20.7338C3.63257 20.7338 5.83755 19.8329 7.59834 18.2962C5.3458 18.2431 3.45811 16.6004 2.80771 14.3393C3.125 14.3923 3.44224 14.4276 3.77539 14.4276C4.2354 14.4276 4.69546 14.357 5.12373 14.2334C2.77603 13.7034 1.01519 11.4071 1.01519 8.6338V8.56317C1.69727 8.98711 2.49048 9.25207 3.33115 9.28736C1.95107 8.26281 1.04692 6.51408 1.04692 4.53567C1.04692 3.47584 1.30068 2.50431 1.74487 1.65642C4.26709 5.1186 8.05835 7.37958 12.3096 7.62692C12.2303 7.20298 12.1827 6.76142 12.1827 6.3198C12.1827 3.17554 14.4669 0.614258 17.3064 0.614258C18.7816 0.614258 20.1141 1.30316 21.05 2.41601C22.208 2.16872 23.3184 1.69176 24.302 1.0382C23.9212 2.36305 23.1122 3.47589 22.0494 4.18241C23.0805 4.05882 24.0799 3.7408 24.9999 3.29924C24.302 4.4297 23.4295 5.43652 22.4302 6.24912Z"
                                 fill="white" />
                         </svg>
-    
+
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="23" height="25" viewBox="0 0 23 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -349,7 +389,7 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="25" height="20" viewBox="0 0 25 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -357,7 +397,7 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                     <li class="footer__introduce-list-item">
                         <svg width="23" height="26" viewBox="0 0 23 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -365,12 +405,57 @@
                                 fill="white" />
                         </svg>
                     </li>
-    
+
                 </ul>
-    
+
                 <p class="footer__introduce-version">© AltDesain Studio 2021 - All right reserved.</p>
             </div>
         </div>
     </div>
+
+    <div class="modal">
+        <ul class="modal__list">
+            <div class="modal__close ti-close"></div>
+
+            <li class="modal__list-items">
+                <a href="./home2.html" class="modal__list-items-link modal__list-items-link-active">
+                    Home + 
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home3.html" class="modal__list-items-link">
+                    About
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home4.html" class="modal__list-items-link">
+                    Service
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home5.html" class="modal__list-items-link">
+                    Gallery 
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home7.html" class="modal__list-items-link">
+                    Blog
+                </a>
+            </li>
+
+            <li class="modal__list-items">
+                <a href="./home8.html" class="modal__list-items-link">
+                    Contact
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <script src="./asset/js/index.js"></script>
 </body>
 </html>

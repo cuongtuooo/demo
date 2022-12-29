@@ -1,27 +1,22 @@
 /* tablet */
 @media (min-width: 740px) and ( max-width: 1023px) {
     /* menu */
-    .header__main {
-        margin-left: 0;
-        margin-right: 0;
+    .header__menu__list {
+        display: none;
     }
 
     .header__contact {
-        flex-grow: 1;
+        display: none;
+    }
+
+    /* header main tablet end mobile */
+    .header__mobile {
+        display: block;
     }
 
     /* footer */
     .footer__contact-phone {
         margin-bottom: 50px;
-    }
-
-    /* home 1 */
-    .content__nav-items {
-        margin-top: 50px;
-    }
-
-    .content__send-icon {
-        margin-top: 100px;
     }
     
 }
@@ -74,21 +69,4 @@
         margin-top: 30px;
     }
     
-
-    /* home1 (style.css) */
-    .content__send-profile-title {
-        width: 100%;
-    }
-
-    .content__services-text {
-        width: 100%;
-    }
-
-    .content__nav-items {
-        margin-top: 50px;
-    }
-
-    .content__send-icon {
-        margin-top: 100px;
-    }
 }

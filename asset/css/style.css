@@ -6,8 +6,7 @@
 
 /* header */
 .header {
-    position: relative;
-    height: 805px;
+    position: relative; 
 }
 
 /* header background */
@@ -34,8 +33,13 @@
 
 /* header logo */
 .header__logo {
+    text-decoration: none;
     display: inline-flex;
     flex-grow: 3;
+}
+
+.header__logo:hover {
+    opacity: 0.6;
 }
 
 
@@ -115,6 +119,10 @@
     font-weight: 500;
 }
 
+.header__menu__list-item-link:hover {
+    opacity: 0.6;
+}
+
 .header__menu__list-item-link--active {
     position: relative;
     color: #414880;
@@ -159,20 +167,106 @@
     margin-top: 4px;
 }
 
+.header__contact:hover {
+    opacity: 0.6;
+}
+
+/* header main tablet and mobile */
+.header__mobile {
+    display: none;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.header__mobile:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* modal */
+.modal {
+    display: none;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+
+
+.modal__list {
+    background-color: #091156;
+    height: 100vh;
+    width: 30%;
+    position: absolute;
+    z-index: 3;
+    padding-left: 40px;
+    list-style: none;
+    animation-name: abcc;
+    animation-duration: 1s;
+}
+
+@keyframes abcc{
+    from {
+        opacity: 0;
+        width: 0%;
+    }
+
+    to {
+        opacity: 1;
+        width: 30%;
+    }
+}
+
+.modal__close {
+    cursor: pointer;
+    font-size: 2rem;
+    color: #D7DBFF;
+    padding: 20px;
+    display: inline-block;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+}
+
+.modal__close:hover {
+    opacity: 0.6;
+}
+
+.modal__list-items {
+    margin-top: 40px;
+}
+
+.modal__list-items:hover {
+    opacity: 0.6;
+}
+
+.modal__list-items-link {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.modal__list-items-link-active {
+    display: block;
+    margin-top: 80px;
+    color: rgb(65, 72, 128);
+}
+
 /* wrap clinic and frame */
 .header__content {
-    position: absolute;
-    top: 223px;
-    width: 80%;
-    z-index: 1;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
+    margin-top: 150px;
 }
 
 /* header__clinic */
 
 .header__clinic {
-    margin-top: 11px;
+    margin-top: 20px;
     display: block;
     width: 430px;
     height: 128px;
@@ -183,7 +277,6 @@
 }
 
 .header__clinic-title {
-    width: 474px;
     height: 54px;
     display: block;
     font-weight: 500;
@@ -194,18 +287,30 @@
 }
 
 .header__frame {
-    height: 358.5px;
+    display: block;
+    width: 100%;
 }
 
 /* header__nav */
 
 .header__nav {
-    position: absolute;
-    top: 755.85px;
-    left: 50%;
-    transform: translateX(-50%);
     display: flex;
     align-items: center;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 131px;
+}
+
+.header__nav-item-wrap {
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.header__nav-item-wrap:hover {
+    opacity: 0.1;
+    background-color: black;
 }
 
 .header__nav-item {
@@ -214,6 +319,15 @@
     height: 3.09px;
     border-radius: 50px;
     background-color: #EEEEEE;
+    cursor: pointer;
+}
+
+.header__nav-item-active {
+    width: 25.31px;
+    height: 8.15px;
+    background: #414880;
+    border-radius: 50px;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .header__nav-itemMain {
@@ -234,7 +348,6 @@
 }
 
 .content__services {
-    margin-top: 131px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -275,8 +388,13 @@
 /* content nav */
 .row.content__nav {
     margin-top: 82px;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.content__nav-items.col {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .content__nav-items {
@@ -296,7 +414,7 @@
 }
 
 .content__nav-items-wrap.col {
-    overflow: hidden;
+    
 }
 
 .content__nav-items-wrap:hover  {
@@ -517,6 +635,13 @@
     margin-bottom: 40px;
 }
 
+.content__avatar-items:hover {
+    cursor: pointer;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px 25px #F7F7FF;
+    border-radius: 42px;
+}
+
 .content__avatar-img-link:hover {
     opacity: 0.6;
 }
@@ -568,7 +693,12 @@
     color: #8B8B8B;
     position: relative;
     z-index: 1;
-    
+    text-decoration: none;
+    display: block;
+}
+
+.content__avatar-items-text:hover {
+    opacity: 0.6;
 }
 
 .content__avatar-items-list {
@@ -702,6 +832,10 @@
 }
 
 .content__send-profile-sendMesage {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 54.84px;
     outline: none;
     border: none;
@@ -718,6 +852,10 @@
     color: #FFFFFF;
 }
 
+.content__send-profile-sendMesage:hover {
+    opacity: 0.6;
+}
+
 
 /* footer */
 .footer {
@@ -728,6 +866,23 @@
     padding-top: 237px;
 }
 
+.footer__around {
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #FF64AE;
+    width: 36px;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.footer__around:hover {
+    opacity: 0.6;
+}
 
 /* footer background */
 .footer__background1 {
@@ -839,6 +994,7 @@
 .footer__contact-phone {
     display: flex;
     margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .footer__contact-phone-number {
@@ -848,7 +1004,7 @@
     line-height: 21px;
     letter-spacing: 0.1em;
     color: #D7DBFF;
-
+    text-decoration: none;
 }
 
 .footer__contact-phone-emai {
@@ -860,6 +1016,10 @@
     text-decoration-line: underline;
     color: #D7DBFF;
     margin-left: 28px;
+}
+
+.footer__contact-phone-emai:hover {
+    opacity: 0.6;
 }
 
 /* footer content page */
@@ -879,6 +1039,10 @@
     margin-top: 24px;
 }
 
+.footer__contact-page-list-link:hover {
+    opacity: 0.6;
+}
+
 .footer__contact-page-list-item {
     font-weight: 400;
     font-size: 1.6rem;
@@ -886,11 +1050,16 @@
     letter-spacing: 0.1em;
     color: #D7DBFF;
     margin-bottom: 11px;
+    text-decoration: none;
     display: flex;
 }
 
 .footer__contact-page-list-item-icon {
     margin-right: 13px;
+}
+
+.footer__contact-page-list-item-text {
+    display: block;
 }
 
 /* footer introduce */
