@@ -1,5 +1,6 @@
 /* tablet */
 @media (min-width: 740px) and ( max-width: 1023px) {
+    /* content about */
     .content__about {
         display: flex;
         flex-direction: column;
@@ -21,6 +22,11 @@
     .content__about--1 {
         margin-top: 0;
     }
+
+    /* content business */
+    .content__business {
+        min-height: 310px;
+    }
 }
 
 
@@ -37,10 +43,23 @@
 
     .content__about-main {
         margin-top: 140px;
+        text-align: center;
     }
 
     /* content about 1 */
     .content__about--1 {
         margin-top: 0;
     }
+
+    /* content business */
+    .content__business {
+        padding-top: 2%;
+        min-height: 110px;
+    }
+
+    .content__business-main {
+        height: 197px;
+        overflow: hidden;
+    }
 }
+

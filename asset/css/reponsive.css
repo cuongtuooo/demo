@@ -23,27 +23,31 @@
 
 /* mobile */
 @media (max-width: 739px) {
-    /* header main */
-    .header__main {
-        margin-left: 0;
-        margin-right: 0;
-        flex-direction: column;
-    }
 
+    /* menu */
     .header__menu__list {
-        margin-top: 40px;
+        display: none;
     }
 
     .header__contact {
-        margin-top: 30px;
+        display: none;
     }
 
-    .header__menu__list-item {
-        list-style: none;
-        padding-left: 10px;
-        padding-right: 10px;
+    /* header main tablet end mobile */
+    .header__mobile {
+        display: block;
     }
 
+    /* footer */
+    .footer__contact-phone {
+        margin-bottom: 50px;
+    }
+    /* header main */
+    .header__main {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
     /* footer main */
     .footer {
         padding-top: 50px;

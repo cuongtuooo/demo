@@ -325,8 +325,8 @@
 
 /* content send */
 .row.content__send {
-    margin-left: 59px;
-    margin-right: 59px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .content__send-icon {
@@ -354,7 +354,7 @@
     line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
-    width: 404px;
+    max-width: 404px;
 }
 
 .content__send-profile-ders {
@@ -442,8 +442,8 @@
 }
 
 .content__send-profile-sendMesage {
-    display: flex;
     text-decoration: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 54.84px;

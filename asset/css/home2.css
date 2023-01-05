@@ -268,8 +268,11 @@
 /* header content */
 
 .header__content {
+    margin-left: 10%;
+    margin-right: 10%;
     display: flex;
     margin-top: 153px;
+    justify-content: space-between;
 }
 
 .header__content-beauty {
@@ -277,7 +280,7 @@
 }
 
 .header__content-beauty-heading {
-    width: 502px;
+    max-width: 502px;
     font-weight: 600;
     font-size: 4.8rem;
     line-height: 125%;
@@ -285,7 +288,7 @@
 }
 
 .header__content-beauty-ders {
-    width: 501px;
+    max-width: 501px;
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 24px;
@@ -318,7 +321,7 @@
 }
 
 /* header content playlist */
-.header__content-playlist.col {
+.header__content-playlist {
     display: flex;
     align-items: center;
 }
@@ -386,8 +389,11 @@
 }
 
 /* content about */
+
+
 .row.content__about {
-  justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .content__about {
@@ -402,7 +408,7 @@
 
 /* content main */
 
-.content__about-main.col {
+.content__about-main {
     display: inline-block;
 }
 
@@ -494,14 +500,27 @@
 }
 
 /* content makeup */
+.content__makeup-wrap.wide {
+    width: 100%;
+}
 
 .row.content__makeup {
     display: flex;
     margin-top: 68px;
-    list-style: none;
-    justify-content: space-around;
-    margin-left: 120px;
-    margin-right: 120px;
+    list-style: none;   
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content__makeup-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.content__makeup-wrap.col {
+    padding-left: 33px;
+    padding-right: 33px;
+    display: flex;
 }
 
 .content__makeup-items {
@@ -509,7 +528,13 @@
     border: 1px solid #E2E2E2;
     border-radius: 25px;
     padding-left: 36px;
+    width: 261px;
     background-color: #FFFFFF;
+}
+ 
+.content__makeup-items:hover {
+    border: 1px solid #9BA2E0;
+    cursor: pointer;
 }
 
 .content__makeup-items-link {
@@ -521,10 +546,6 @@
     opacity: 0.6;
 }
 
-.content__makeup-items-active {
-    border: 1px solid #9BA2E0;
-    border-radius: 25px;
-}
 
 .content__makeup-items-icon {
     display: block;
@@ -722,11 +743,31 @@
 }
 
 /* content price */
+.content__price-wrap.wide {
+    width: 100%;
+}
+
+.row.content__price {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .content__price {
     margin-top: 79px;
     display: flex;
     list-style: none;
     justify-content: center;
+}
+
+.content__price-items-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.content__price-items-wrap.col {
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .content__price-items {
@@ -735,6 +776,7 @@
     margin-left: 25px;
     margin-right: 25px;
     height: 543px;
+    max-width: 347px;
 }
 
 .content__price-items-link {
@@ -749,7 +791,6 @@
 .content__price-items-img {
     display: block;
     width: 100%;
-    max-height: 249px;
 }   
 
 .content__price-items-main {
@@ -776,7 +817,7 @@
 
 .content__price-items-main-ders {
     max-width: 271px;
-    height: 74px;
+    min-height: 74px;
     font-weight: 400;
     font-size: 1.4rem;
     line-height: 21px;
@@ -786,7 +827,7 @@
 }
 
 .content__price-items-main-text {
-    height: 19px;
+    min-height: 19px;
     font-weight: 600;
     font-size: 1.4rem;
     line-height: 125%;
@@ -809,19 +850,20 @@
     margin-top: 169px;
     min-height: 122px;
     display: flex;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     justify-content: space-between;
     align-items: center;
 }
 
 /* contact call */
 .content__contact-call {
-    max-width: 391px;
+    width: 391px;
+    margin-right: 90px;
 }
 
 .content__contact-call-heading {
-    height: 50px;
+    min-height: 50px;
     font-weight: 600;
     font-size: 3.6rem;
     line-height: 125%;
@@ -831,7 +873,7 @@
 
 .content__contact-call-ders {
     width: 391px;
-    height: 60px;
+    min-height: 60px;
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 24px;

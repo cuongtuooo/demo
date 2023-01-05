@@ -250,8 +250,8 @@
     margin-top: 125px;
     display: flex;
     max-width: 1120px;
-    margin-left: 8%;
-    margin-right: 8%;
+    margin-left: 9%;
+    margin-right: 9%;
     justify-content: space-between;
     align-items: center;
 
@@ -284,8 +284,8 @@
 }
 
 .content__glary-ders {
-    width: 407px;
-    height: 72px;
+    max-width: 407px;
+    min-height: 72px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -319,7 +319,7 @@
 .content__service-ders {
     margin-top: 66px;
     max-width: 660px;
-    height: 72px;
+    min-height: 72px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;

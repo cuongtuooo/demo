@@ -3,12 +3,38 @@
     /* .content glary */
     .content__glary {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content__glary-main {
+        text-align: center;
+    }
+
+    .content__glary-ders {
+        text-align: center;
     }
 
     /* content avatar */
     .content__avatar {
         flex-wrap: wrap;
     }
+    /* content send */
+    .content__sendWrap.wide {
+        width: 100%;
+    }
+
+    .content__send-icon {
+        margin-top: 100px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* .content__send-profile-heading, .content__send-profile-title, .content__send-profile-ders{
+        text-align: center;
+    } */
+
+     
 }
 
 /* mobile */
@@ -16,10 +42,29 @@
     /* .content glary */
     .content__glary {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .content__glary-main {
+        text-align: center;
+    }
+
+    .content__glary-ders {
+        text-align: center;
     }
 
     /* content avatar */
     .content__avatar {
         flex-wrap: wrap;
     }
+
+    /* content send */
+    .content__send-profile-title {
+        width: 100%;
+    }
+
+    .content__send-icon {
+        margin-top: 100px;
+    }
+
 }

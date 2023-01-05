@@ -284,6 +284,8 @@
 /* content professional */
 
 .content__professional {
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 125px;
     text-align: center;
 }
@@ -327,19 +329,29 @@
 
 
 /* content avatar */
+.content__avatar-wrap.wide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .row.content__avatar {
     margin-top: 93px;
-    margin-left: 100px;
-    margin-right: 100px;
+}
+
+.content__avatar-items-wrap.col {
+    display: flex;
+    justify-content: center;
 }
 
 .content__avatar-items {
     text-align: center;
     min-height: 439px;
-    max-width: 270px;
+    width: 340px;
     border-radius: 0px;
     margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content__avatar-items:hover {
@@ -413,6 +425,9 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
 }
 
 .content__avatar-items-icons {
@@ -421,7 +436,8 @@
 }
 
 .content__avatar-items-icons:hover {
-    opacity: 0.6;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 /* content member */
@@ -488,33 +504,34 @@
 .content__customer {
     margin-top: 125px;
     position: relative;
-    min-height: 506px;
+    min-height: 529px;
     width: 100%;
-    padding-top: 12%;
 }
 
 .content__customer-img {
     position: absolute;
-    display: block;
+    overflow: hidden;
     width: 100%;
+    height: 100%;
     z-index: -1;
-    top: 0;
 }
 
 .content__customer-background {
     position: absolute;
+    overflow: hidden;
     width: 100%;
+    height: 100%;
     z-index: -1;
-    top: 0;
+
 }
 
 .content__customer-main {
+    position: absolute;
     max-width: 680px;
     min-height: 153px;
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .content__customer-heading {
@@ -546,6 +563,8 @@
 /* content review */
 .content__reiview { 
     margin-top: 61px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .content__reiview-img {

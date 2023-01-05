@@ -1,3 +1,14 @@
+/* pc low */
+@media (max-width: 1112px) {
+    /* content about */
+    .content__about-wrap {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 /* tablet */
 
 @media (min-width: 740px) and ( max-width: 1023px) {
@@ -5,19 +16,58 @@
         margin-top: 50px;
     }
 
-    .content__send-icon {
-        margin-top: 100px;
-    }
-
     .content__services-text {
         width: 100%;
+    }
+
+    /* content send */
+    .content__sendWrap.wide {
+        width: 100%;
+    }
+
+    .content__send-icon {
+        margin-top: 100px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* content about */
+    .content__about-wrap {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .content professional */
+    .content__professional {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }
 
 /* mobile */
 @media (max-width: 739px) { 
+    /* header__clinic */
+    .header__clinic__wrap.col {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .header__clinic-title {
+        margin-top: 30px;
+    }
+
+    /* content */
+
+    /* content send */
     .content__send-profile-title {
         width: 100%;
+    }
+
+    .content__send-icon {
+        margin-top: 100px;
     }
 
     .content__services-text {
@@ -28,7 +78,26 @@
         margin-top: 50px;
     }
 
-    .content__send-icon {
-        margin-top: 100px;
+    
+
+    /* .content nav items */
+
+    .content__nav-items-wrap.col {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* content about */
+    .content__about-wrap {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* .content professional */
+    .content__professional {
+        margin-left: 10%;
+        margin-right: 10%;
     }
 }

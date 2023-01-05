@@ -4,15 +4,16 @@
     .content__member-items-main {
         flex-wrap: wrap;
         flex-direction: column;
+        margin-right: 10%;
     }
 
     .content__member-items-main-text {
-        margin-left: 0;
-    }
-
-    .content__member-items-main-text {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
         margin-top: 40px;
     }
+
 }
 
 /* mobile */
@@ -21,13 +22,15 @@
     .content__member-items-main {
         flex-wrap: wrap;
         flex-direction: column;
+        margin-right: 10%;
     }
 
     .content__member-items-main-text {
-        margin-left: 0;
-    }
-
-    .content__member-items-main-text {
+        margin-left: 10%;
+        margin-right: 10%;
+        text-align: center;
         margin-top: 40px;
     }
+
+    
 }

@@ -263,13 +263,12 @@
     margin-top: 150px;
 }
 
-/* header__clinic */
 
 .header__clinic {
     margin-top: 20px;
     display: block;
-    width: 430px;
-    height: 128px;
+    max-width: 430px;
+    min-height: 128px;
     font-weight: 600;
     font-size: 4.8rem;
     line-height: 60px;
@@ -277,7 +276,7 @@
 }
 
 .header__clinic-title {
-    height: 54px;
+    min-height: 54px;
     display: block;
     font-weight: 500;
     font-size: 16px;
@@ -309,8 +308,7 @@
 }
 
 .header__nav-item-wrap:hover {
-    opacity: 0.1;
-    background-color: black;
+    opacity: 0.7;
 }
 
 .header__nav-item {
@@ -348,9 +346,8 @@
 }
 
 .content__services {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
     text-align: center;
 }
 
@@ -402,11 +399,15 @@
     width: 343px;
     height: 458px;
     background: #FFFFFF;
-    box-shadow: 0px 25px 50px 25px #F6F7FF;
     border-radius: 42px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+}
+
+.content__nav-items:hover {
+    box-shadow: 0px 25px 50px 25px #F6F7FF;
+
 }
 
 .content__nav-items-wrap {
@@ -417,9 +418,11 @@
     
 }
 
-.content__nav-items-wrap:hover  {
-    opacity: 0.8;
-}
+/* .content__nav-items-wrap:hover  {
+    box-shadow: 0px 25px 50px 25px #F6F7FF;
+} */
+
+
 
 .content__nav-img {
     margin-top: 59px;
@@ -504,7 +507,7 @@
 
 .content__about-ders-line2 {
     margin-top: 37px;
-    width: 483px;
+    max-width: 483px;
     font-size: 1.6rem;
     letter-spacing: 0.1em;
     line-height: 24px;
@@ -580,6 +583,10 @@
     display: block;
     margin-top: 99px;
     border-radius: 50px;
+    width: 100%;
+}
+
+.content__about-imgMain:hover {
     box-shadow: 0px 0px 50px -25px #ffffff;
 }
 
@@ -620,19 +627,29 @@
 
 
 /* content avatar */
+.content__avatar-wrap.wide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .row.content__avatar {
     margin-top: 93px;
-    margin-left: 100px;
-    margin-right: 100px;
+}
+
+.content__avatar-items-wrap.col {
+    display: flex;
+    justify-content: center;
 }
 
 .content__avatar-items {
     text-align: center;
-    height: 439px;
-    width: 270px;
+    min-height: 439px;
+    width: 340px;
     border-radius: 0px;
     margin-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .content__avatar-items:hover {
@@ -706,6 +723,9 @@
     list-style: none;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 20px;
 }
 
 .content__avatar-items-icons {
@@ -713,10 +733,15 @@
     padding-right: 38px;
 }
 
+.content__avatar-items-icons:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 /* content send */
 .row.content__send {
-    margin-left: 59px;
-    margin-right: 59px;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .content__send-icon {
@@ -744,7 +769,7 @@
     line-height: 45px;
     letter-spacing: 0em;
     text-align: left;
-    width: 404px;
+    max-width: 404px;
 }
 
 .content__send-profile-ders {

@@ -14,7 +14,7 @@
     }
 
     .content__about-main {
-        margin-top: 140px;
+        margin-top: 20px;
         text-align: center;
     }
 
@@ -26,7 +26,25 @@
     /* content responsibility */
     .content__responsibility-main {
         flex-wrap: wrap;
-        margin-left: 10%;
+        justify-content: center;
+    }
+
+    .content__responsibility-main-service {
+        text-align: center;
+    }
+
+    .content__responsibility-main-service-ders {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* content__technology */
+    .content__technology-items-img {
+
+    }
+
+    .content__technology-items-wrap {
+        margin-bottom: 68px;
     }
 
 }
@@ -36,6 +54,15 @@
     /* content technology */
     .content__technology {
         justify-content: center;
+    }
+
+    /* content__technology */
+    .content__technology-items-img {
+
+    }
+
+    .content__technology-items-wrap {
+        margin-bottom: 68px;
     }
 
     /* content about */
@@ -48,12 +75,22 @@
     }
 
     .content__about-main {
-        margin-top: 140px;
+        margin-top: 20px;
+        text-align: center;
     }
 
        /* content responsibility */
        .content__responsibility-main {
         flex-wrap: wrap;
-        margin-left: 10%;
+        justify-content: center;
+    }
+
+    .content__responsibility-main-service {
+        text-align: center;
+    }
+
+    .content__responsibility-main-service-ders {
+        margin-left: auto;
+        margin-right: auto;
     }
 }

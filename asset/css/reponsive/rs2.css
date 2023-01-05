@@ -1,6 +1,31 @@
 /* tablet */
 @media (min-width: 740px) and ( max-width: 1023px) {
+    /* header  */
+    .header__content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__content-beauty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content-playlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content-playlist-text {
+        display: none;
+    }
+
     /* content about */
+    .content__about-wrap {
+        width: 100%;
+    }
+
     .content__about {
         display: flex;
         flex-direction: column;
@@ -19,6 +44,14 @@
     }
 
     /* content make up */
+    .row.content__makeup {
+        
+    }
+
+    .content__makeup-wrap {
+        margin-bottom: 20px;
+    }
+
     .content__makeup-items-heading {
         width: 100%;
     }
@@ -34,6 +67,10 @@
     }
 
     /* content resson */
+    .content__resson {
+        margin-top: 0;
+    }
+
     .content__resson-main {
         justify-content: center;
     }
@@ -52,9 +89,33 @@
     }
 }
 
-/* mobile */
+/* mobile ----------------------------------------------------------------------------------->*/
 @media (max-width: 739px) { 
+    /* header  */
+    .header__content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header__content-beauty {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content-playlist {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header__content-playlist-text {
+        display: none;
+    }
+
     /* content about */
+    .content__about-wrap {
+        width: 100%;
+    }
 
     .content__about {
         display: flex;
@@ -65,9 +126,17 @@
 
     .content__about-main {
         margin-top: 140px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     /* content make up */
+    .content__makeup-wrap {
+        margin-bottom: 20px;
+    }
+
     .content__makeup-items-heading {
         width: 100%;
     }
@@ -83,6 +152,10 @@
     }
 
     /* content resson */
+    .content__resson {
+        margin-top: 0;
+    }
+
     .content__resson-main {
         justify-content: center;
     }
@@ -94,6 +167,17 @@
     /* content contact*/
     .content__contact {
         flex-direction: column;
+    }
+
+    .content__contact-call {
+        margin-right: 0;
+        max-width: 391px;
+    }
+
+
+    
+    .content__contact-phone {
+        max-width: 100%;
     }
 
     .content__contact-phone-from-input {
