@@ -540,7 +540,7 @@
 
 .content__faq-heading {
     position: relative;
-    width: 640px;
+    max-width: 640px;
     height: 45px;
     font-weight: 600;
     font-size: 3.6rem;

@@ -32,5 +32,8 @@
         margin-top: 40px;
     }
 
+    .content__member-items-main-img {
+        width: 100%;
+    }
     
 }
